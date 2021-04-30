@@ -1,3 +1,5 @@
+This repo has been moved to https://github.com/runkitdev/docker-mongo-local-replicaset!
+
 # MongoDB Local ReplicaSet
 
 Sometimes you need a replica set in your local environment (perhaps you want to use the oplog). But it's somewhat involved to spin up a series of mongo containers and provide the correct configuration. This docker image will create a self-contained 3 node replica set (that is, all three nodes are running in one container).
